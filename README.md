@@ -9,7 +9,7 @@ This project automates a search on Twitch's mobile web version using Selenium an
 - [Getting Started](#getting-started)
 - [Setting Up the Python Environment](#setting-up-the-python-environment)
 - [Running Tests](#running-tests)
-
+- [## GIFT Test running locally](#GIFT-Test-running-locally) 
 
 
 ## Features
