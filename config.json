@@ -1,0 +1,10 @@
+{
+    "popup_selectors": [
+        "#login-popup", 
+        ".ad-modal", 
+        ".cookie-banner"
+    ],
+    "scroll_count": 2,
+    "search_term": "StarCraft II",
+    "screenshot_path": "Screenshot/twitch_screenshot.png"
+}

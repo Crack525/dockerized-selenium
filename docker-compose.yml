@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  selenium-tests:
+    build: .
+    volumes:
+      - .:/app
+    environment:
+      - DISPLAY=:99
+    entrypoint: ["pytest", "tests/test_twitch.py"]
