@@ -26,16 +26,18 @@ This project automates a search on Twitch's mobile web version using Selenium an
 - **Python 3.x**: Ensure Python is installed on your machine. You can download it from [Python.org](https://www.python.org/downloads/).
 - **Docker**: Install Docker Desktop compatible with your version of Chrome. You can download it from [Docker Desktop](https://www.docker.com/products/docker-desktop/). Make sure it’s accessible in your system's PATH.
 
+
 ## Getting Started
 
 1. **Clone the repository:**
    ```bash
    git clone https://github.com/Crack525/dockerized-selenium.git
-   cd repo-name
+   cd dockerized-selenium
 
 2. **Build the Docker image:**
     ```bash
     docker build -t twitch-selenium-tests .
+
 
 ## Setting Up the Python Environment
 
@@ -47,7 +49,7 @@ If you want to run the tests outside of Docker (optional), you can set up a Pyth
 
 2. **Activate the virtual environment:**
 
- - **On Windows:**
+- **On Windows:**
     ```bash
     venv\Scripts\activate
 
