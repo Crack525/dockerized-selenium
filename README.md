@@ -65,8 +65,8 @@ If you want to run the tests outside of Docker (optional), you can set up a Pyth
 
 To run the tests in Docker, execute the following command, the command below will run the tests in a container and generate reports in the specified directories.:
 
-```bash
-docker run -it --shm-size=4g --rm \
+    ```bash
+    docker run -it --shm-size=4g --rm \
         -v $(pwd)/screenshots:/app/screenshots \
         -v $(pwd)/reports:/app/reports \
         twitch-selenium-tests
