@@ -72,3 +72,7 @@ docker run -it --shm-size=4g --rm \
         twitch-selenium-tests
 
 The command above will run the tests in a container and generate reports in the specified directories.
+
+## GIFT Test running locally
+
+![Animation](https://github.com/Crack525/dockerized-selenium/blob/main/screen_recording.gif)
